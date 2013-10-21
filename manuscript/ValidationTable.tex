@@ -1,0 +1,19 @@
+% latex table generated in R 2.13.1 by xtable 1.6-0 package
+% Tue Oct 18 15:50:02 2011
+\begin{table}[ht]
+\begin{center}
+\begin{tabular}{lrrrrr|rrrrr}
+  \hline & \multicolumn{5}{c|}{Daily data} & \multicolumn{5}{c}{Monthly data} \\ \hline
+Variable & RMSE & MAE & MER & R$^2$ & n  & RMSE & MAE & MER & R$^2$ & n \\ 
+  \hline
+Maximum Temperature ($^o$C) & 1.79 & 1.26 & -0.03 & 0.90 & 21,915 & 4.93 & 3.79 & 0.67 & 0.60 &1,280\\ 
+  Minimum Temperature  ($^o$C) & 1.73 & 1.26 & -0.06 & 0.85 & 21,915 &
+  3.39 & 2.67 & 1.02 & 0.48 & 1,138 \\ 
+  Precipitation (mm) & 3.92 & 0.85 & -0.02 & 0.59 & 21,915 & 29.61 &
+  19.71 & -3.60 & 0.56 & 5,036\\ 
+   \hline
+\end{tabular}
+\caption{Validation results for each variable.  The comparison of daily data are from the daily observations not included in model fitting. The monthly data compare predicted and observed total monthly precipitation and monthly maximum and minimum temperature at a set of remote stations.  The poorer fit for the monthly temperature is expected as it represents the ability of the model to estimate the single daily maximum and minimum in each month, while the monthly precipitation comparison is the aggregated total for the month. The validation metrics are as follows. RMSE: Root Mean Squared Errors, MAE: Mean Absolute Error, MER: Mean Error}
+\label{tab:valid}
+\end{center}
+\end{table}
