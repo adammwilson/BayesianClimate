@@ -1,7 +1,7 @@
 Estimating Uncertainty in Daily Weather Interpolations: a Bayesian Framework for Developing Climate Surfaces
 ===============
 ## Accepted to International Journal of Climatology
-
+http://onlinelibrary.wiley.com/doi/10.1002/joc.3859/abstract
 ###  Adam M. Wilson, John A. Silander, Jr.
 
 
